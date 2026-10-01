@@ -13,8 +13,6 @@
 
 ## 중요: 이 프로젝트는 Vercel + Supabase를 필수로 사용합니다.
 
-`run.bat`는 포함하지 않습니다.
-
 분석 기록은 브라우저 `localStorage`가 아니라 Supabase PostgreSQL에 저장됩니다. 테스트용 서비스이므로 회원가입, 로그인, Supabase Anonymous Auth 없이 모든 분석 기록을 하나의 공개 기록 공간에 계속 저장합니다.
 
 > 주의: 이 구조에서는 같은 Supabase 프로젝트를 사용하는 모든 사용자가 분석 기록을 조회할 수 있습니다. 실제 서비스로 공개할 때는 반드시 Supabase Auth와 사용자별 RLS로 변경해야 합니다.
