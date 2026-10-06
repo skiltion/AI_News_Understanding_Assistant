@@ -108,12 +108,4 @@ Supabase의 PostgreSQL 데이터베이스를 사용하여 사용자가 분석한
 ## 실행 주소
 
 **배포된 웹서비스 주소:**  
-`[Vercel 배포 주소 입력]`
-
-예시:
-
-```text
-https://ai-news-understanding-assistant.vercel.app
-```
-
-> 실제 Vercel 배포 주소가 정해지면 위의 `[Vercel 배포 주소 입력]` 부분을 실제 주소로 변경합니다.
+`https://ai-news-understanding-assistant.vercel.app`
